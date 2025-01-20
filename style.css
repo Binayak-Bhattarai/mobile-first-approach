@@ -9,6 +9,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #e1e4e6;
 }
 
 .nav {
@@ -215,8 +216,8 @@ h2 {
     margin-bottom: 30px;
 }
 .firefly{
-    height: 270px;
-    width: 250px;
+    height: 300px;
+    width: 280px;
     margin: 15px;
     background-image: url(firefly.png);
     background-size: cover;
@@ -260,14 +261,65 @@ h2 {
 }
 #journal1{
     background-image: url(journal1.png);
-    border-radius: 15px;
+    border-radius: 25px;
 }
 #journal2{
     background-image: url(journal2.png);
-    border-radius: 15px;
+    border-radius: 25px;
 }
 #journal3{
     background-image: url(journal3.png);
-    border-radius: 15px;
+    border-radius: 25px;
 }
-
+.footer{
+    height: 350px;
+    width: 280px;
+    margin: 15px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    flex-direction: column;
+    position: relative;
+}
+.btnfoot{
+    height: 40px;
+    width: 150px;
+   background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: black;
+ 
+}
+.section{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+   font-size: 10px;
+}
+.footbtn{
+    height: 30px;
+    width: 120px;
+   background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    
+}
