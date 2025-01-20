@@ -253,4 +253,21 @@ h2 {
     margin-left: 15px;
     margin-bottom: 15px;
 }
+.hero5{
+    max-width: 350px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#journal1{
+    background-image: url(journal1.png);
+    border-radius: 15px;
+}
+#journal2{
+    background-image: url(journal2.png);
+    border-radius: 15px;
+}
+#journal3{
+    background-image: url(journal3.png);
+    border-radius: 15px;
+}
 
